@@ -1,11 +1,9 @@
 # Environment & credentials
 .env
 
-# Python & temporary image caches
+# Python cache & temporary scratch files
 __pycache__/
-images/
 scratch/
-*.png
 
 # Ignore monolithic 182MB PDF (split into lsq_part1..4.pdf under 50MB)
 lsq.pdf
